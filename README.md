@@ -1,4 +1,4 @@
-## Getting started
+## Getting Started
 
 ```sh
 # log into the login node
@@ -14,3 +14,5 @@ git pull origin main
 git branch --set-upstream-to=origin/main main
 # launch vnc server in a worker node
 sbatch vnc.slurm
+```
+
