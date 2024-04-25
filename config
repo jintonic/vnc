@@ -1,0 +1,9 @@
+## Supported server options to pass to vncserver upon invocation can be listed
+## in this file. See the following manpages for more: vncserver(1) Xvnc(1).
+
+# just list resolution that is not hard coded to xrandr below
+# run xrandr without options to print hard-coded resolutions
+# 1280x832 is for macbook air m2, 2022
+# one can change resolution in a VNC session using
+# xrandr --output VNC-0 --mode 2560x1440
+geometry=1280x832
